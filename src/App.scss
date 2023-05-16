@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #FFDF8C;
+}
+
+.wrapper {
+  max-width: 1340px;
+  background-color: #fff;
+  margin: 45px auto;
+  min-height: 100vh;
+}
+.btn {
+  border: none;
+  border-radius: 30px;
+  padding: 18px 50px;
+  font-size: 16px;
+  line-height: 19px;
+}

@@ -1,0 +1,21 @@
+.empty {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &__text {
+    padding: 20px 0 45px;
+    width: 455px;
+
+  }
+
+  &__btn {
+    background: #282828;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 90px;
+  }
+}
