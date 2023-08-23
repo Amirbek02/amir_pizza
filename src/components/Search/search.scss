@@ -2,15 +2,17 @@
   position: relative;
 
   &__input {
-    
     border: none;
-    border: 1px solid rgba($color: #000000, $alpha: .2);
+    border: 1px solid rgba($color: #000000, $alpha: 0.2);
     border-radius: 5px;
     padding: 12px 20px;
     padding-left: 32px;
     outline: none;
+    @media (max-width: 956px) {
+      padding: 12px 20px;
+    }
     &:focus {
-      border: 1px solid rgba($color: #000000, $alpha: .3);
+      border: 1px solid rgba($color: #000000, $alpha: 0.3);
     }
   }
 
